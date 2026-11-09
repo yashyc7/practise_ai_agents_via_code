@@ -1,0 +1,17 @@
+[project]
+name = "practise-ai-agents-via-code"
+version = "0.1.0"
+description = "practising creation of ai agents and all of their components like how they move in real production systems."
+readme = "README.md"
+authors = [
+    { name = "yashyc7", email = "yashc9411407582@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+practise-ai-agents-via-code = "practise_ai_agents_via_code:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
