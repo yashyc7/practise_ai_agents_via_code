@@ -7,7 +7,11 @@ authors = [
     { name = "yashyc7", email = "yashc9411407582@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "openai>=3.46.0",
+    "python-dotenv>=1.2.4",
+    "ruff>=0.17.4",
+]
 
 [project.scripts]
 practise-ai-agents-via-code = "practise_ai_agents_via_code:main"
